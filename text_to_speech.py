@@ -3,8 +3,8 @@ import os
 import sys
 import shutil 
 
-
-gdrive_dir = "/Users/yusukeomura/yusuke-omura@ours-blanc.art - Google Drive/My Drive/Share/English"
+# put your own directory to copy file
+gdrive_dir = ""
 args = sys.argv
 arg1 = args[1]
 file_name = os.path.basename(arg1)
